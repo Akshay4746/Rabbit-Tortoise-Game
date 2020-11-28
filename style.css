@@ -1,0 +1,80 @@
+/* You can see here which style is for which element in the html by reffering the classname ot tag names  */
+*
+{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#ecf4f3;
+}
+h1{
+    text-align:center;
+}
+.container
+{
+    display:flex;
+    height:650px;
+}
+.container1
+{
+    height:60px;
+    width:1100px;
+}
+.container2
+{
+    height:550px;
+    width:1100px;
+    position:absolute;
+
+}
+.play img{
+    height:100px;
+    width:100px;
+}
+.play1
+{
+    position: absolute;
+    top:5%;
+}
+.centerline{
+   width:100%;
+   position: absolute;
+   top:40%;
+}
+.play2
+{
+    position: absolute;
+    bottom:10%;
+    
+}
+.centerline img{
+    height:100px;
+    padding-right:15px;
+}
+.container3
+{
+    height:60px;
+    width:1100px;
+    position:absolute;
+    bottom:7%;
+}
+.container4
+{   display:flex;
+    height:100px;
+    width:1100px;
+    position:absolute;
+    align-self:center;
+    bottom:7%;
+}
+.player1-info
+{
+    position: absolute;
+    left:20%;
+    top:40%;
+}
+.player2-info
+{
+    position:absolute;
+    right:20%;
+    top:40%;
+}
